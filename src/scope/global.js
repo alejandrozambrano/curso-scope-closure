@@ -13,3 +13,12 @@ function besfruit() {
 }
 
 besfruit();
+
+function countries() {
+    country = 'Colombia'; // global
+    console.log(country);
+}
+
+countries();
+console.log(country);
+
