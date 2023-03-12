@@ -1,10 +1,11 @@
 function greeting() {
-    let useName = 'Ana';
-    console.log(useName);
+    let userName = 'Ana';
+    console.log(userName);
 
-    if (useName === 'Ana') {
-        console.log(`Hello ${useName}!`)
+    if (userName === 'Ana') {
+        console.log(`Hello ${userName}!`)
     }
 }
 
 greeting();
+console.log(userName);
